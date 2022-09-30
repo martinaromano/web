@@ -1,0 +1,64 @@
+h1
+/*Selector Universal*/
+{
+    /*Color de Fondo*/ 
+    background-color: white;
+
+    /*Color del Texto*/ 
+    Color: #5F00FB ;
+border: solid ghostwhite;
+}
+
+h2 
+{
+    color:black
+}
+
+.serif{
+    /*Tipografia*/
+
+    font-family:sans-serif;
+
+    /*Tamano*/
+
+    font: size 100;
+
+    /*Grosor*/
+    
+    font-weight: 500 ;
+
+    /*Alineacion*/
+
+    text-align: center;
+}
+
+
+/*ID*/
+
+#uno{
+
+    color: violet;
+
+}
+p{
+    text-align: center;
+}
+
+/*Media Queries*/
+
+@media (min-width: 700px) {
+body{
+    background-color: ghostwhite;
+
+}
+p{
+    color:#5F00FB
+}
+
+}
+
+/*Tamano fotos*/
+#img2{ 
+    width: 500px;
+border: solid violet;
+}
